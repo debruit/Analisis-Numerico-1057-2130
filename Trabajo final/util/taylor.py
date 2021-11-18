@@ -27,5 +27,5 @@ def taylor(f,a,b,h,m,k):
 
 x,y = sp.symbols('x,y')
 f = y+x-x**2+1
-ua = taylor(f,0,1,0.1,5,3) 
+ua = taylor(f,0,1,1,12,3) 
 print(ua)
